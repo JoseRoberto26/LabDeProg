@@ -1,0 +1,1 @@
+O comando irá verificar se a varivavel "num" possui valor igual a 10

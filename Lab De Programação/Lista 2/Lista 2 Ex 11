@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int x, y;
+    printf("digite sua idade e o tempo de servico\n");
+    scanf("%d", &x);
+    scanf("%d", &y);
+    if ((x > 64 & y > 29) | (x > 59 & y > 24))
+    {
+        printf("Pode se aposentar");
+        return 0;
+    }
+    else
+    {
+        printf("Não pode se aposentar");
+        return 0;
+    }
+}
+

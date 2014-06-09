@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+    float x;
+    float y;
+    printf("Digite o tamanho do arquivo para download em mb \n");
+    scanf("%f", &x);
+    printf("Agora digite a velocidade do link da internet em mbps \n");
+    scanf("%f", &y);
+    printf("O tempo estimado de download em minutos será de %f", (x / y) * 60 );
+    return 0;
+}
